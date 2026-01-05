@@ -1,6 +1,8 @@
 Weather Station: ESP32 + Calypso Ultrasonic + BME680
 A Bluetooth‑enabled wind and environmental monitoring station using an ESP32 (8MB Flash, 8MB PSRAM), PlatformIO, and the Arduino framework.
+
 Overview
+
 This project implements a compact weather station focused primarily on wind measurement using the Calypso Ultrasonic anemometer, complemented by temperature, humidity, and pressure readings from a BME680 sensor.
 The ESP32 retrieves wind data over BLE, aggregates values, and periodically posts results to a secure API using HTTPS + JWT authentication. Additional environmental data and battery levels are also reported at regular intervals.
 An online dashboard visualizes the collected data using Google Charts.
